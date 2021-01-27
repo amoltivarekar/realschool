@@ -1,0 +1,217 @@
+.font-grandstander{
+	font-family: 'Grandstander';
+	letter-spacing: 0px;
+	opacity: 1;
+}
+.font-montserrat{
+	font-family: 'Montserrat';
+}
+.font-size-12{
+	font-size: 12px;
+}
+.font-size-15{
+	font-size: 15px;
+}
+.font-size-20{
+	font-size: 20px;
+}
+.font-size-25{
+	font-size: 25px;
+}
+.font-size-30{
+	font-size: 30px;
+}
+.font-size-35{
+	font-size: 35px;
+}
+.text-pink{
+	color: #FF3A58 !important;
+}
+.text-white{
+	color: #000000;
+}
+.text-off-white{
+	color: #ADBABD;
+}
+.bg-white{
+	background: #000000;
+}
+.bg-pink{
+	background: #FF3A58;
+}
+.bg-yellow{
+	background: #FFE30D;
+}
+.bg-greeny{
+	background: #8AE241;
+}
+.bg-purple{
+	background: #AF70FC;
+}
+.border-pink{
+	border: 1px solid #FF3A58;
+}
+.letter-space-1{
+	letter-spacing: 1px;
+}
+.box-bottom-shadow{
+	box-shadow: 0px 3px 5px -3px #cccccc;
+}
+.box-rb-shadow{
+	box-shadow: 3px 3px 3px -2px #cccccc;
+}
+.border-radius-5{
+	border-radius: 5px;
+}
+#fee-box{
+	padding: 2px 2px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+#fee-box>img{
+	width: 30px;
+	height: 30px;
+}
+.bg-off-yellow{
+	background: #FBFCF7;
+}
+.front-view-img>img{
+	width: 530px;
+	height: 330px;
+	border-radius: 5px;
+}
+.front-view-img>h5{
+	top: 33px;
+	right: 35px;
+	color: #ffffff;
+	font-size: 22px;
+}
+.front-view-img>button{
+	background: #ffffff;
+	border: 0px solid;
+	border-radius: 5px;
+	bottom: 40px;
+	left: 20px;
+	font-size: 20px;
+}
+.front-view-img>button>h3{
+	font-size: 20px;
+}
+.navbar{
+	width: 100%;
+	padding-left: 170px;
+	padding-right: 170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#views{
+	border-radius: 5px;
+	border: 1px solid ;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background: #FDFFD3;
+	margin-left: auto;
+}
+.time{
+	border-radius: 20px;
+	border: 1px solid;
+}
+.rectangle{
+	width: 32px;
+	height: 6px;
+	background: #A0E467;
+	border-radius: 6px;
+}
+.card{
+	border-radius: 10px;
+}
+.card-img-top{
+	border-radius: 10px 10px 0px 0px;
+}
+.card-body .fa-arrow-right{
+	right: 30px;
+	bottom: 20px;
+}
+.steps{
+	background: #F6FEFF;
+	border-radius: 5px;
+}
+.steps img{
+	width: 50px;
+	height: 50px;
+}
+.steps .card-body{
+	width: 100%;
+	height: 240px;
+}
+.std-img{
+	width: 100%;
+	height: 400px;
+}
+.opacity-0-1{
+	opacity: 0.1;
+}
+.std-card{
+	width: 100%;
+	height: 450px;
+	top: -25px;
+	left: 600px;
+	border: 7px solid #000000;
+	border-radius: 20px;
+}
+.std-card>img{
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+}
+footer{
+	background: #635D5D;
+}
+.play-store{
+	width: 152px;
+	height: 45px;
+}
+.badge{
+	border-radius: 11px 10px 17px 20px;
+}
+.bg-blue{
+	background: #6188EA;
+}
+.points{
+	border-radius: 20px;
+	border: 2px solid #cccccc;
+}
+.point-circle{
+	border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+	.navbar{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#fee-box{
+		width: 200px;
+		margin: 10px 25px;
+	}
+	.front-view-img>img{
+		width: 340px;
+		height: 230px;
+	}
+	#views{
+		margin-right: auto;
+		width: 180px;
+	}
+	.invisible{
+		display: none;
+	}
+	.std-img{
+		display: none;
+	}
+	footer{
+		text-align: center;
+	}
+}
